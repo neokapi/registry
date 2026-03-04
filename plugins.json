@@ -3,13 +3,13 @@
   "plugins": [
     {
       "name": "okapi-bridge-0.38",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v0.38)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "28f8608fabb5d733850a2193ca5eb9a0c0d196ce5b766cc200cb7e74d4ffd414",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi0.38.tar.gz",
+      "checksum": "8f79492e7225a11d5c871bf362c504d77b9a550e6d7769c1966a085f41e4508a",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -674,13 +674,13 @@
     },
     {
       "name": "okapi-bridge-1.39.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.39.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "c7e772d04fb40544db71cddd8d6253d2077c2d5ac2806109ed4d7971f3f302d8",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.39.0.tar.gz",
+      "checksum": "927cbb4f5dc2b9ce87c728f092a3cce7550dca0ae277b029340570182aae4848",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.39.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -1345,13 +1345,13 @@
     },
     {
       "name": "okapi-bridge-1.40.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.40.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "f61a180da17bd61f56ab6e7cc99c099a8488160ab7e77524f43df8775ad4360a",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.40.0.tar.gz",
+      "checksum": "9a0ad06cc677288cb678dbe38e93bd6a141db74e356f25241e64a5cafadd5155",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.40.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -2016,13 +2016,13 @@
     },
     {
       "name": "okapi-bridge-1.41.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.41.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "74212844e95e2e01e6c6619a832fe828d49589171687a2392e7642165f7d3a8b",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.41.0.tar.gz",
+      "checksum": "b03cc668cb0ff20432a2343898cfdef92b04fbd8aa64a5560d337e162326907a",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.41.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -2687,13 +2687,13 @@
     },
     {
       "name": "okapi-bridge-1.42.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.42.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "3c22ecb2aa1e121e39c28924a6e3d35f67d7786a89398c62756b8424403ed756",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.42.0.tar.gz",
+      "checksum": "7c3ff26edb6401593970f35c94a7c266e2e11d12d7f644787e45c2cd593ead22",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.42.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -3358,13 +3358,13 @@
     },
     {
       "name": "okapi-bridge-1.43.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.43.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "06947efac84fcd7ab4fb72135ed30df70678c9bb541de352bea9b78d947c7b69",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.43.0.tar.gz",
+      "checksum": "",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.43.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -4029,13 +4029,13 @@
     },
     {
       "name": "okapi-bridge-1.44.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.44.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b5797f4ba708513f794cc54ecfedb0716a193e187fb8737718bb7f2457f7f9b7",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.44.0.tar.gz",
+      "checksum": "2d96620132434afd53611be5ecc1d970ecb5471947fa3d6c696f6a652fcba943",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.44.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -4700,13 +4700,13 @@
     },
     {
       "name": "okapi-bridge-1.45.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.45.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "bf1fd12931ac0da8cfca9acc6c4bb76a0a7e5462eef0f44d63cf7264f6a05d01",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.45.0.tar.gz",
+      "checksum": "",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.45.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -5371,13 +5371,13 @@
     },
     {
       "name": "okapi-bridge-1.46.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.46.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "cca142132f9fd1796bb03a6577784a94684c48d46fcec48482f926aa92b1ee7a",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.46.0.tar.gz",
+      "checksum": "b2ffd4a294eeef12976661149510e58c0869b6f017bf6ae91e82102eca7445b5",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -6042,13 +6042,13 @@
     },
     {
       "name": "okapi-bridge-1.47.0",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.47.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "164ca4496e3b759222a1e38c92120c061d0ba6c8beab9b657eee3dc2028b269b",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.47.0.tar.gz",
+      "checksum": "e919626312125fd0cd0aecf252143f595f39115f38ba48f37902c6abc69cfd51",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -6713,13 +6713,13 @@
     },
     {
       "name": "okapi-bridge",
-      "version": "2.3.2",
+      "version": "2.3.3",
       "description": "Okapi filters (v1.48.0, latest)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "e710458a4535e43189cb732631256a37a9a86cdeb4493309ee7605e5306aeafa",
-      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.2/okapi-bridge-v2.3.2-okapi1.48.0.tar.gz",
+      "checksum": "c4581a3bee49141c481fa75843df3bdd5d5495a782f32f123d1557dabca44d2a",
+      "download_url": "https://github.com/gokapi/okapi-bridge/releases/download/v2.3.3/okapi-bridge-v2.3.3-okapi1.48.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
