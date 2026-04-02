@@ -3,14 +3,14 @@
   "plugins": [
     {
       "name": "okapi-0.38",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "0.38",
       "description": "Okapi filters and steps (v0.38)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "ca8e10371cc1343fdc204c7ada0224a50a19013a6523320abc6da26b4dfbe07b",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi0.38.tar.gz",
+      "checksum": "704b88ce2484ea81348f706e9af2ffd30c20875c9c3b1e9a80dbb35b36dccdf5",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi0.38.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -439,6 +439,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -578,7 +597,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -593,7 +612,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -768,6 +787,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -806,6 +843,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -819,6 +871,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -3428,14 +3499,14 @@
     },
     {
       "name": "okapi-1.39.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.39.0",
       "description": "Okapi filters and steps (v1.39.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "1939685745d83cacba3cf13c57e66814d648188c23225b1852620966111f5f99",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.39.0.tar.gz",
+      "checksum": "5f542a389eda031694ec676deef126e641fc02d44ca06b9a5530a21116ece8a0",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.39.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -3864,6 +3935,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -4003,7 +4093,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -4018,7 +4108,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -4193,6 +4283,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -4231,6 +4339,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -4244,6 +4367,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -6853,14 +6995,14 @@
     },
     {
       "name": "okapi-1.40.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.40.0",
       "description": "Okapi filters and steps (v1.40.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b1bde923bb0091235edc66b423a9499b675f31bd46cb2bb8fe221ea9dee0528f",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.40.0.tar.gz",
+      "checksum": "bc02f93f74d69ecc57337f7e6e90b294f2e3d0511cb77c5642e551007b657566",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.40.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -7289,6 +7431,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -7428,7 +7589,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -7443,7 +7604,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -7618,6 +7779,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -7656,6 +7835,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -7669,6 +7863,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -10278,14 +10491,14 @@
     },
     {
       "name": "okapi-1.41.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.41.0",
       "description": "Okapi filters and steps (v1.41.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b3d31107fc2fc70e177b92f89fceac3a82e265cee06481288bfdd634d33c3919",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.41.0.tar.gz",
+      "checksum": "2ff476fc025141e28269ec6876007f364c703a396d5a4acb9a16b762334a1053",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.41.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -10714,6 +10927,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -10853,7 +11085,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -10868,7 +11100,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -11043,6 +11275,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -11081,6 +11331,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -11094,6 +11359,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -13703,14 +13987,14 @@
     },
     {
       "name": "okapi-1.42.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.42.0",
       "description": "Okapi filters and steps (v1.42.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "8429db8f9396267be4ea964083357ccbd79b79d4747a9c94fc7bc30c5615be4c",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.42.0.tar.gz",
+      "checksum": "0a757b2a7eaa5f73dc79f360ccc180b0b019cfa7d5ac20f0ceb82b2f761bc34e",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.42.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -14139,6 +14423,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -14278,7 +14581,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -14293,7 +14596,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -14468,6 +14771,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -14506,6 +14827,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -14519,6 +14855,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -17128,14 +17483,14 @@
     },
     {
       "name": "okapi-1.43.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.43.0",
       "description": "Okapi filters and steps (v1.43.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "90e0697a3ecd5284b624cb00835916b6f995f46f0b18eb8165890f1e103366b6",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.43.0.tar.gz",
+      "checksum": "deae7b8f2bbec734bea396120f1b2b0768a9ea3f9edbf2ba5376736e1010e6f8",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.43.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -17564,6 +17919,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -17703,7 +18077,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -17718,7 +18092,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -17893,6 +18267,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -17931,6 +18323,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -17944,6 +18351,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -20553,14 +20979,14 @@
     },
     {
       "name": "okapi-1.44.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.44.0",
       "description": "Okapi filters and steps (v1.44.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "f5c23ae9b77e8f0d47f9d9a642fcfa702c6e76d1cbad6ed0422848026739297f",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.44.0.tar.gz",
+      "checksum": "65d01ec9848e4c7d76175d270ca2986b79cd28511b690b8700b252da3859989f",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.44.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -20989,6 +21415,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -21128,7 +21573,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -21143,7 +21588,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -21318,6 +21763,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -21356,6 +21819,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -21369,6 +21847,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -23978,14 +24475,14 @@
     },
     {
       "name": "okapi-1.45.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.45.0",
       "description": "Okapi filters and steps (v1.45.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "e7a9f39bad8062e77ef80832d3a36661d3eb667374274ac50e14f3e9172875ee",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.45.0.tar.gz",
+      "checksum": "314935aac92f7efce72af5960c602b9c582c55ec7b1b09ce66985ab46564a9dc",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.45.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -24414,6 +24911,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -24553,7 +25069,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -24568,7 +25084,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -24743,6 +25259,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -24781,6 +25315,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -24794,6 +25343,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -27403,14 +27971,14 @@
     },
     {
       "name": "okapi-1.46.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.46.0",
       "description": "Okapi filters and steps (v1.46.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b2e9035b9fc4f9c1cbf2063d19b1e0938c980604155e2a85a96198b1d2f95a82",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.46.0.tar.gz",
+      "checksum": "31eb52acb881a9deed897687305eabd4c615c34e74cf8c43aef7b2ad5a7a9290",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.46.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -27839,6 +28407,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -27978,7 +28565,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -27993,7 +28580,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -28168,6 +28755,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -28206,6 +28811,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -28219,6 +28839,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -30828,14 +31467,14 @@
     },
     {
       "name": "okapi-1.47.0",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.47.0",
       "description": "Okapi filters and steps (v1.47.0)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "93e94c8fcbf159e2be829d825c4a980123781b27f9c8d6cf54cd0d7dac8e0b8d",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.47.0.tar.gz",
+      "checksum": "a0b7d9909fcd516998bf522f352ca92567182acc9ed90aeb8e7a06c3f991469a",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.47.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -31264,6 +31903,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -31403,7 +32061,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -31418,7 +32076,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -31593,6 +32251,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -31631,6 +32307,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -31644,6 +32335,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
@@ -34253,14 +34963,14 @@
     },
     {
       "name": "okapi",
-      "version": "2.39.0",
+      "version": "2.40.0",
       "framework_version": "1.48.0",
       "description": "Okapi filters and steps (v1.48.0, latest)",
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "1193e2fecb8c6056659a3b7a7f9ff7bace742b2a7c28f28db37b6df261e8a6a3",
-      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.39.0/okapi-bridge-v2.39.0-okapi1.48.0.tar.gz",
+      "checksum": "aa8fb4ff9a9cb487356086c4fea84f0cdcb04413e0f38e3c5ebcf5ff9d8a83cf",
+      "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.40.0/okapi-bridge-v2.40.0-okapi1.48.0.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
         {
@@ -34689,6 +35399,25 @@
         },
         {
           "type": "format",
+          "id": "okf_pdf",
+          "name": "okf_pdf",
+          "display_name": "PDF Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/pdf"
+          ],
+          "extensions": [
+            ".pdf"
+          ],
+          "schema": "formats/okf_pdf/schema.json",
+          "doc": "formats/okf_pdf/doc.json",
+          "presets_dir": "formats/okf_pdf/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_pensieve",
           "name": "okf_pensieve",
           "display_name": "Pensieve TM Filter",
@@ -34828,7 +35557,7 @@
           "type": "format",
           "id": "okf_regexplaintext",
           "name": "okf_regexplaintext",
-          "display_name": "okf_plaintext_regex Filter",
+          "display_name": "okf_plaintext_regex",
           "capabilities": [
             "read",
             "write"
@@ -34843,7 +35572,7 @@
           "type": "format",
           "id": "okf_rtf",
           "name": "okf_rtf",
-          "display_name": "Trados-Tagged RTF Filter - READING ONLY Filter",
+          "display_name": "Trados-Tagged RTF Filter - READING ONLY",
           "capabilities": [
             "read",
             "write"
@@ -35018,6 +35747,24 @@
         },
         {
           "type": "format",
+          "id": "okf_ttml",
+          "name": "okf_ttml",
+          "display_name": "TTML Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "application/ttml+xml"
+          ],
+          "extensions": [
+            ".ttml"
+          ],
+          "schema": "formats/okf_ttml/schema.json",
+          "presets_dir": "formats/okf_ttml/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_ttx",
           "name": "okf_ttx",
           "display_name": "TTX Filter",
@@ -35056,6 +35803,21 @@
         },
         {
           "type": "format",
+          "id": "okf_versifiedtext",
+          "name": "okf_versifiedtext",
+          "display_name": "Versified Text Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/x-versified-txt"
+          ],
+          "schema": "formats/okf_versifiedtext/schema.json",
+          "presets_dir": "formats/okf_versifiedtext/presets/"
+        },
+        {
+          "type": "format",
           "id": "okf_vignette",
           "name": "okf_vignette",
           "display_name": "Vignette Filter",
@@ -35069,6 +35831,25 @@
           "schema": "formats/okf_vignette/schema.json",
           "doc": "formats/okf_vignette/doc.json",
           "presets_dir": "formats/okf_vignette/presets/"
+        },
+        {
+          "type": "format",
+          "id": "okf_vtt",
+          "name": "okf_vtt",
+          "display_name": "VTT Filter",
+          "capabilities": [
+            "read",
+            "write"
+          ],
+          "mime_types": [
+            "text/vtt"
+          ],
+          "extensions": [
+            ".vtt",
+            ".srt"
+          ],
+          "schema": "formats/okf_vtt/schema.json",
+          "presets_dir": "formats/okf_vtt/presets/"
         },
         {
           "type": "format",
