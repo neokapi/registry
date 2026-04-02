@@ -8,7 +8,7 @@
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "b399df2db47c8aca5f4fa6bb9fed5895feed8dc93a2e1b3946985db7901de2a5",
+      "checksum": "4091642045db5af5f02e528e47999874236808c425e6985d9ebfc88b5175bd17",
       "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/snapshot/okapi-bridge-snapshot-okapi1.49.0-SNAPSHOT.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
@@ -88,18 +88,18 @@
         },
         {
           "type": "format",
-          "id": "okf_epub",
-          "name": "epub",
-          "display_name": "EPUB Filter",
+          "id": "okf_dxf",
+          "name": "dxf",
+          "display_name": "AutoCAD DXF Filter",
           "capabilities": [
             "read",
             "write"
           ],
           "mime_types": [
-            "application/epub+zip"
+            "image/x-dxf"
           ],
           "extensions": [
-            ".epub"
+            ".dxf"
           ]
         },
         {
@@ -201,19 +201,6 @@
           "extensions": [
             ".md",
             ".markdown"
-          ]
-        },
-        {
-          "type": "format",
-          "id": "okf_messageformat",
-          "name": "messageformat",
-          "display_name": "Message Format Filter",
-          "capabilities": [
-            "read",
-            "write"
-          ],
-          "mime_types": [
-            "text/x-messageformat"
           ]
         },
         {
@@ -797,7 +784,8 @@
           ],
           "extensions": [
             ".vtt",
-            ".srt"
+            ".srt",
+            ".sbv"
           ]
         },
         {
@@ -814,22 +802,6 @@
           ],
           "extensions": [
             ".txt"
-          ]
-        },
-        {
-          "type": "format",
-          "id": "okf_wsxzpackage",
-          "name": "wsxzpackage",
-          "display_name": "WSXZ Filter",
-          "capabilities": [
-            "read",
-            "write"
-          ],
-          "mime_types": [
-            "application/x-wsxzpackage"
-          ],
-          "extensions": [
-            ".wsxz"
           ]
         },
         {
