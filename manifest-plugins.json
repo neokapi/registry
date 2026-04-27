@@ -1,0 +1,15 @@
+{
+  "schema": "v2",
+  "comment": "Manifest-driven plugins (issue neokapi/neokapi#438). The legacy plugins.json next to this file describes gRPC bridge plugins (Okapi); they are migrated to this schema in phases 8-9.",
+  "plugins": {
+    "bowrain": {
+      "description": "Sync .kapi projects with Bowrain Server",
+      "homepage": "https://bowrain.cloud",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "bowrain",
+      "channels": ["stable", "beta"],
+      "versions": {}
+    }
+  }
+}
