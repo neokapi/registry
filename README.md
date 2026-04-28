@@ -8,11 +8,12 @@ prompt triggered by `requires:` in `.kapi` recipes.
 
 | File | Purpose |
 |---|---|
-| `plugins.json` | Legacy v1 index — Okapi bridge gRPC plugins. Consumed by `kapi plugins` (plural). |
-| `manifest-plugins.json` | New v2 index — manifest-driven plugins (issue [neokapi/neokapi#438](https://github.com/neokapi/neokapi/issues/438)). Consumed by `kapi plugin` (singular). |
-| `channels/snapshot.json` | Mirror of the snapshot channel for `--channel snapshot`. |
+| `manifest-plugins.json` | Plugin index — manifest-driven plugins ([neokapi/neokapi#438](https://github.com/neokapi/neokapi/issues/438)). Consumed by `kapi plugin install / search / info / update`. |
 
-## Schema (v2)
+The legacy `plugins.json` (v1 / `kapi plugins` plural) was removed
+once the v1 plugin runtime was deleted from kapi (#438 phase 9).
+
+## Schema
 
 ```jsonc
 {
