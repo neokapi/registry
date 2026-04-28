@@ -182,6 +182,40 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.0.6": {
+          "released": "2026-04-28",
+          "channel": "stable",
+          "platforms": {
+            "darwin/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_darwin_amd64.tar.gz",
+              "sha256": "049234d65f9998c915118cef39980bbbde623f769b8aeb558479c4dacdc3c378",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_darwin_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.6",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_darwin_arm64.tar.gz",
+              "sha256": "f002da9772f4c4a3d72faa061f0b3c0dc39de4ed893e98816fb814f73b479889",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.6",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_linux_amd64.tar.gz",
+              "sha256": "707e42d867925a2a0d55a14645385713377701be121b04e7a8e8c33bc5345d80",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.6",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_linux_arm64.tar.gz",
+              "sha256": "f2164f4c97d2a3632f0db0e5a030a12ba5ca2b6df10d05a6fbe21b59def8d574",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.6/kapi-bowrain_1.0.6_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.6",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
