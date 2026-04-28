@@ -10,6 +10,15 @@
       "group": "bowrain",
       "channels": ["stable", "beta"],
       "versions": {}
+    },
+    "okapi-bridge": {
+      "description": "Okapi Framework filters (57+ formats) — IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, …",
+      "homepage": "https://github.com/neokapi/okapi-bridge",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "okapi-bridge",
+      "channels": ["stable"],
+      "versions": {}
     }
   }
 }
