@@ -12,7 +12,42 @@
         "stable",
         "beta"
       ],
-      "versions": {}
+      "versions": {
+        "1.0.0": {
+          "released": "2026-04-28",
+          "channel": "stable",
+          "platforms": {
+            "darwin/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_darwin_amd64.tar.gz",
+              "sha256": "662e0090942d491f4d7d38f0ada1005ebc2339db5954d9ba53901d9b394ee192",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_darwin_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_darwin_arm64.tar.gz",
+              "sha256": "ee9eb9880e8ced5587a42bb499b67d762605bfb64ef74b4396289c493a9b3b3b",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_linux_amd64.tar.gz",
+              "sha256": "24b8093d8b359f5f0e065f8cd911935de9a75537f0fc7fc8aeb03c0ce5fe92d5",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_linux_arm64.tar.gz",
+              "sha256": "af10878fd7c127597c4fa952e8f27af50a5b5c230576bd899bfbd3c296c374cd",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.0.0/kapi-bowrain_1.0.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.0.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        }
+      }
     },
     "okapi-bridge": {
       "description": "Okapi Framework filters (57+ formats) — IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, …",
