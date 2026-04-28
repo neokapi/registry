@@ -59,37 +59,72 @@
         "stable"
       ],
       "versions": {
-        "1.39.0": {
+        "0.38": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_darwin_arm64.tar.gz",
-              "sha256": "e55f8c0f3dd3e769cc75c901b02230ca5c4c675d025baf89d8fa241867cda441",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_darwin_arm64.tar.gz",
+              "sha256": "36ed434fc55e5935fec7931b747ff004c4e1156ba9ae24c3352b3f9e1b649763",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_linux_amd64.tar.gz",
-              "sha256": "b023b084679796c0b5203c638a198f484a9ac0f353378481ca7a8e686b3e3dd9",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_linux_amd64.tar.gz",
+              "sha256": "9b7a40cdbc16dd47962ed789cdab2edc70fc627290fe2e0bfffccabdf3e0de10",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_linux_arm64.tar.gz",
-              "sha256": "71f1ea514bc9938f33570105e685285451b7a4c952b752b2d2fd6c3408593da2",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_linux_arm64.tar.gz",
+              "sha256": "198dd8af519dc4cbc1cca88b6d58c72448e29318c4f7e2bcf4d11a00e8b1da96",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_windows_amd64.tar.gz",
-              "sha256": "b19904513d44d19da78e769faef5299b71c87a736552c459533a04afef609dce",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.39.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_windows_amd64.tar.gz",
+              "sha256": "f95b12c096828a06748d10d6380d74b39ca7e3457a1e685d9a6ba32ddbe4e015",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_0.38_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
+        "1.39.0": {
+          "released": "2026-04-28",
+          "channel": "stable",
+          "min_kapi_version": "1.0.0",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_darwin_arm64.tar.gz",
+              "sha256": "c104f7f5987e30aa8b5d1451ef25d4e97069460b6fc5ca0df0d8d37e36624f60",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_linux_amd64.tar.gz",
+              "sha256": "b51bd3c53c39f1b402e058ef190f9a8faf206086dc42e2549daaab11572a367b",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_linux_arm64.tar.gz",
+              "sha256": "8c4470770ed743fa27360cb341c06caf17011b967e9e74a066bc4b6c5ebbb73c",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_windows_amd64.tar.gz",
+              "sha256": "3cd38342aaf510a846e8efcca76ab151f51507422a00b674f85097a5a055283c",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.39.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -97,34 +132,34 @@
         "1.40.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_darwin_arm64.tar.gz",
-              "sha256": "fc046f7f87a0d468c6321f3639648aceb13f6acda310bd2b576fb4ceb45ec097",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_darwin_arm64.tar.gz",
+              "sha256": "a67a81b4d47b53ba7d04c5bdf3186063a89b0b4fef405abe5c66863c67c896d0",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_linux_amd64.tar.gz",
-              "sha256": "71095858145b585b87a9f10cf3be53abfd82e27c9db36007d96c03d2ef2e4071",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_linux_amd64.tar.gz",
+              "sha256": "c0168d6ff13b23a2e09785de0b695cd0a522d82edd1adfd5bd965e5e186e5068",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_linux_arm64.tar.gz",
-              "sha256": "a53a1ef750e48c664f3e6062844d40c1b80b16f217b752235d615c793bad3281",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_linux_arm64.tar.gz",
+              "sha256": "29f480ec6c709dc86cdc26b52253b53804465fbfb4978d2164d0ae9ef70e513a",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_windows_amd64.tar.gz",
-              "sha256": "fc6f4923d8274598a8c3054581f92894533c1fc62b965197794b9caa4cb3c440",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.40.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_windows_amd64.tar.gz",
+              "sha256": "546f095308cf077f42daac6218d7d86a9efd81f19b339f0a29f9d76ad702272b",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.40.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -132,34 +167,34 @@
         "1.41.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_darwin_arm64.tar.gz",
-              "sha256": "2d69345ffcb8567ebc723cfbfa0337bd50e75d09c3a514cdc106c4dc641cf4bf",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_darwin_arm64.tar.gz",
+              "sha256": "39c72997fd39daa8767d15332989785b21f055e4ebff6b661fe20538fa886e78",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_linux_amd64.tar.gz",
-              "sha256": "b1a752a8ec4edd8ff3de762fea595ab2b2cbca17e02518c0fcd97360433f0a6e",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_linux_amd64.tar.gz",
+              "sha256": "4fc19c5da97007f9afc153f210a4698e549f24c8fe2978280adcac1015af0f2b",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_linux_arm64.tar.gz",
-              "sha256": "3c0d24154d715c3331d63ffa08f2a125e5a8d8d0aa8ebd665578588732b99e25",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_linux_arm64.tar.gz",
+              "sha256": "e1dcef741b86e3e12a61f13ec9b1366cff397ac66d73a3eb135053140546e1ea",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_windows_amd64.tar.gz",
-              "sha256": "e150f32a155aaf4216caa5e7b3b2fc3d950acf94e0d9c17eda279579dfdf1b71",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.41.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_windows_amd64.tar.gz",
+              "sha256": "8c7e34d6ac24166602549c29be004a05e677cb5ea463672a9fae827e208f86ca",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.41.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -167,34 +202,34 @@
         "1.42.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_darwin_arm64.tar.gz",
-              "sha256": "daca938a3bf162117f93c636dbf614d413156fc9c3cfca5b179c9db0aa67442f",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_darwin_arm64.tar.gz",
+              "sha256": "83d9734b8da5ca8b92ea475639bc0a2beb1c02de218dd0896eaff163f8429bd9",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_linux_amd64.tar.gz",
-              "sha256": "86b30205dde3e1d003c5be16fc639f21a468ea63a40c7298b39f8e7a0cf407fd",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_linux_amd64.tar.gz",
+              "sha256": "95ac289cd831348fdcf353514c63ebfb793cd72a3ccf4d005ccc4b94c6857ce8",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_linux_arm64.tar.gz",
-              "sha256": "cb4743174f8c19aa6748371d044bb1c13c03990aeb0a83f5bafbe5770f8333bf",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_linux_arm64.tar.gz",
+              "sha256": "49d340a9771b67a04c046a7acf1843fa2c8571c90b602549ee2d90f0eaf179ce",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_windows_amd64.tar.gz",
-              "sha256": "732781f821f3a4c5dfac717103855fed6070025712e7f7e39bf7cb9ba58505f3",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.42.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_windows_amd64.tar.gz",
+              "sha256": "6d53454fb024b23468a95d7284be5aaade713126f33463d1acede7e2e2062b1d",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.42.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -202,34 +237,34 @@
         "1.43.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_darwin_arm64.tar.gz",
-              "sha256": "08c77a9f3a49f45b59ada406fce68dc496bb33983d7a369642ad7ec9f11de8dc",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_darwin_arm64.tar.gz",
+              "sha256": "bf1499f3c3828563becd1f28f7cb922475d058f21366535f47a2fc949c385bb1",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_linux_amd64.tar.gz",
-              "sha256": "03a983f8f2e12cfb35f28bde1292c0eaf4b6126da5ee98d74cb135ad079d035c",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_linux_amd64.tar.gz",
+              "sha256": "9fb281619f210b47d067075997053378e63e748c7a4ca23d9329ac20d96437d6",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_linux_arm64.tar.gz",
-              "sha256": "135c6ba5e00091a1d5976c98f75233b9325471dd12a3de0a9aa06ba08ebab211",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_linux_arm64.tar.gz",
+              "sha256": "324c98359426b8f0b309458b2e70c83a4cf771ca8f151e609c17c780139c3718",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_windows_amd64.tar.gz",
-              "sha256": "454c5269469ec1527fdc136a156267053fea2fc1ef8f6d76ef22d9df511fb270",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.43.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_windows_amd64.tar.gz",
+              "sha256": "eabc98016f83ceb2787478c4935ae7177d95cb2896e4baaa3ea09427e4160772",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.43.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -237,34 +272,34 @@
         "1.44.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_darwin_arm64.tar.gz",
-              "sha256": "65f5134d8c945fc4b2edae9f9ae2ea9a803ee1ce970c014dccd19294920fc865",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_darwin_arm64.tar.gz",
+              "sha256": "782afa902a1d20b40ccc7a02f9a5cdbc884479f95add51cba78c0fa35915234b",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_linux_amd64.tar.gz",
-              "sha256": "597b7089a5f6cbfa4496aab76ce825fd232882d5131654c60ee9c110e8eed8ce",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_linux_amd64.tar.gz",
+              "sha256": "c10e6517bb42430a3fac8167f67cb0af13f705abe1d37e44fdcd6a7767da6776",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_linux_arm64.tar.gz",
-              "sha256": "6290be779448b5d7ef4881457846c99c858c10c5e3e7c4694180dfda7bd43846",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_linux_arm64.tar.gz",
+              "sha256": "e2bf51fdaafc02a774d65cf1e92b8819d371153cbb3a8d900c4abd9f2a6868bc",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_windows_amd64.tar.gz",
-              "sha256": "4fc9f10e4fcdcee92132811b61edabd1e1c0c2dcf8e11765ce92e558f30bab08",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.44.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_windows_amd64.tar.gz",
+              "sha256": "2c8bcdebab47c0f8ab3950ca92b1c3fbf6d3876a76f8e087afcccd63546f6292",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.44.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -272,34 +307,34 @@
         "1.45.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_darwin_arm64.tar.gz",
-              "sha256": "64c54eee0e5543623602e8077c26b3c7ce5c9a774053ede5b9919e7397e7710f",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_darwin_arm64.tar.gz",
+              "sha256": "c7ea46091bd8ba3476c48699f7f26ee8ee31e543dc4286f34b1d031cffd58549",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_linux_amd64.tar.gz",
-              "sha256": "799ce16ebdf1e2739de9c11090a08788d0c37b5b68e7ec420ab5be2f94ea30c1",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_linux_amd64.tar.gz",
+              "sha256": "0ce2349386377de9ad1b0289518d9508832fecbd3fb71c67eed8d9355db90112",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_linux_arm64.tar.gz",
-              "sha256": "f8abd45d12a1ec52518535e6db9e3b4ebdf24d522010cdb2a560dfc074f8d6ab",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_linux_arm64.tar.gz",
+              "sha256": "4f3cc0b24602c7f805fd220a4c2d2933a4da959a32ceb4d720eccc16d1833a83",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_windows_amd64.tar.gz",
-              "sha256": "c436189d0e6d0ee1303b7381c5315b9fb4ffa43c44a9f45ac9728cf3b4400555",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.45.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_windows_amd64.tar.gz",
+              "sha256": "2fbba66dc89464f6d3ec42aae2d949a5803355311cd3045a447f178a2312dd87",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.45.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -307,34 +342,34 @@
         "1.46.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_darwin_arm64.tar.gz",
-              "sha256": "a2ccfa8419749ca7bfad7b3dce4a419fabb40d4254489f5ea26f71f588e78466",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_darwin_arm64.tar.gz",
+              "sha256": "152d9608b35a1ffb7b9aa87d892deda3d8d4e66decf629b6efa3c887c1d0e735",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_linux_amd64.tar.gz",
-              "sha256": "ed38edbad15611363c0a02973e8e262f69f2b06bc9a55ac77b795cbb4adc29f5",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_linux_amd64.tar.gz",
+              "sha256": "c1d590226f4797f1e274469fa5d1c9cb97da6bec1172c018ddb12f61a54a8317",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_linux_arm64.tar.gz",
-              "sha256": "553edda7a56d71e920987d58d25460c6bd25cdbc4de7370ca748e0f574f3caca",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_linux_arm64.tar.gz",
+              "sha256": "faadd1b4c6311eef37dc33364b67e45a271b98a9dfca42ec20e7dab3a9c604ae",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_windows_amd64.tar.gz",
-              "sha256": "9098704da5d69f22b48f21831a8665db69ef441017fda1775214df0ec42a9e46",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.46.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_windows_amd64.tar.gz",
+              "sha256": "093c7af9e4a12ce17c1e1e0df8ce4476b8283e28adfb3bcce1f7fd207cf1578f",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.46.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -342,34 +377,34 @@
         "1.47.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_darwin_arm64.tar.gz",
-              "sha256": "848e7be029e29aefd4e90de86e80a099ca37c7601911e3e0542c30a2073db1e2",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_darwin_arm64.tar.gz",
+              "sha256": "54530aa3be66f13761857d2e1b52b471a85875501abf31903de7f28cf6408969",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_linux_amd64.tar.gz",
-              "sha256": "969b7a377f4db7ba19f203fd547127ee58c681f100185debd9857977ef3de1db",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_linux_amd64.tar.gz",
+              "sha256": "3a1a02dc88a13575721dd28447e01f09e45ff22d95b37dd70537474c0811e34a",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_linux_arm64.tar.gz",
-              "sha256": "05f741aad0ef25d97cd5ad54be2eca18f5e3ec1a19397da8dac01012287100b9",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_linux_arm64.tar.gz",
+              "sha256": "41229594ad0f6e5300e2114d896a5cbdfd2f4399f2ddab0dead7e18931bf1ea1",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_windows_amd64.tar.gz",
-              "sha256": "a93b215a85b20a9851d730e213a4c5a03ca745bce283daaeb6aa64268eeeed21",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.47.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_windows_amd64.tar.gz",
+              "sha256": "abc71b4468b328274f13a6131e740c9a820db0f7812c80999044c48b1a4511ff",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.47.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
@@ -377,34 +412,34 @@
         "1.48.0": {
           "released": "2026-04-28",
           "channel": "stable",
-          "min_kapi_version": "0.1.0",
+          "min_kapi_version": "1.0.0",
           "platforms": {
             "darwin/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_darwin_arm64.tar.gz",
-              "sha256": "56abc22c2b5a9508e41ee59664f541889f76565b2fa7776f0a7e03282062ea02",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_darwin_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_darwin_arm64.tar.gz",
+              "sha256": "68c349c5663c7a2e0d62131975b0ffcfc3739d8ca7fe7e4122bc28dea2770967",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_linux_amd64.tar.gz",
-              "sha256": "e62eecde9b859cb318fdcc6b18aef61434ae3bc6bb58cea8abd4a351baf504e2",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_linux_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_linux_amd64.tar.gz",
+              "sha256": "2b2f375f6983489d1ccc63ce38abea23a80aa4d2cb5f4ac66956db0762946753",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "linux/arm64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_linux_arm64.tar.gz",
-              "sha256": "196dc4b422212cc725c4e0c9866d32f81ae0a5364ec2e372367a3aedca29abbb",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_linux_arm64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_linux_arm64.tar.gz",
+              "sha256": "c3abf6732fbe9fa6c58ff54b1cc4b96b2f419592dd619e0e87c3ab49828ed31b",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             },
             "windows/amd64": {
-              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_windows_amd64.tar.gz",
-              "sha256": "9545fbb23485aac6cdba94fcda7655dfb4e29946bf4022962c12f31bda9f2152",
-              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.46.0/kapi-okapi-bridge_1.48.0_windows_amd64.tar.gz.sigstore.json",
-              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.46.0",
+              "url": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_windows_amd64.tar.gz",
+              "sha256": "0205d1656f9dd348aac2cf9ec0085a3cde69d634480bbe8f8d8c76d4fc9f667e",
+              "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.51.0/kapi-okapi-bridge_1.48.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.51.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
