@@ -2,17 +2,6 @@
   "schema": "v2",
   "comment": "Manifest-driven plugins (issue neokapi/neokapi#438). The legacy plugins.json next to this file describes gRPC bridge plugins (Okapi); they are migrated to this schema in phases 8-9.",
   "plugins": {
-    "sat": {
-      "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
-      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
-      "author": "Neokapi <hello@neokapi.dev>",
-      "license": "Apache-2.0",
-      "group": "neokapi",
-      "channels": [
-        "stable"
-      ],
-      "versions": {}
-    },
     "bowrain": {
       "description": "Sync .kapi projects with Bowrain Server",
       "homepage": "https://bowrain.cloud",
@@ -655,6 +644,52 @@
               "sha256": "a77f856361a46f45362077bf4066f6c22d1c95ccc4bf6c49ba659088f566d5d7",
               "signature": "https://github.com/neokapi/okapi-bridge/releases/download/v2.60.0/kapi-okapi-bridge_1.48.0_windows_amd64.tar.gz.sigstore.json",
               "cert_identity": "https://github.com/neokapi/okapi-bridge/.github/workflows/release.yml@refs/tags/v2.60.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        }
+      }
+    },
+    "sat": {
+      "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
+      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {
+        "0.1.0": {
+          "released": "2026-05-26",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_darwin_arm64.tar.gz",
+              "sha256": "11d2ae5f8cd688b69b74e710adfe4547297df6e8ef376fb9d036c75af4842c3e",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_linux_amd64.tar.gz",
+              "sha256": "5ad56b537221bec84bfea8325f599f496a13d6c5a04fd3d652b2422adfe387aa",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_linux_arm64.tar.gz",
+              "sha256": "e89d6c7d02bcf43f6a10e9f4405deee1b75261b9380e47aab140acb775b900a1",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_windows_amd64.tar.gz",
+              "sha256": "74f4037332160e0153e76628d2f7fd3d3ffc5d8769440c316be9f864b63eca17",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v0.1.0/kapi-sat_0.1.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v0.1.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
