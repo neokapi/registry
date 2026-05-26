@@ -2,6 +2,17 @@
   "schema": "v2",
   "comment": "Manifest-driven plugins (issue neokapi/neokapi#438). The legacy plugins.json next to this file describes gRPC bridge plugins (Okapi); they are migrated to this schema in phases 8-9.",
   "plugins": {
+    "sat": {
+      "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
+    },
     "bowrain": {
       "description": "Sync .kapi projects with Bowrain Server",
       "homepage": "https://bowrain.cloud",
