@@ -318,6 +318,33 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.1.0": {
+          "released": "2026-06-02",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_darwin_arm64.tar.gz",
+              "sha256": "7a2aa22497a6d7515dfac827c17a3f11b12c92a63a4168bf1f9cc6361b89d847",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_linux_amd64.tar.gz",
+              "sha256": "2c01de7cb2f2211359a1bb8778a0d19a6f05037a9804cc820b514264ca8799f5",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_linux_arm64.tar.gz",
+              "sha256": "88e4acf5d1e0dbe4e54db464aedf92c3630453761479e74206ba076ca4c61244",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
