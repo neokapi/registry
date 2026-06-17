@@ -520,6 +520,52 @@
         }
       }
     },
+    "pdfium": {
+      "description": "Read PDFs with correct text (incl. CID/Type0/CJK) and per-segment geometry via Google's PDFium",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/pdfium",
+      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {
+        "0.1.0": {
+          "released": "2026-06-17",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_darwin_arm64.tar.gz",
+              "sha256": "606af7239de03db0af6357594fd13b8176dcc1da8e74634953bc7f6f4dca217e",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_linux_amd64.tar.gz",
+              "sha256": "51cad054a6b9fd7225f09e2cb9fa4e227e973f08f5096a54cb42b964cfca58e7",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_linux_arm64.tar.gz",
+              "sha256": "a536c95af7649df81176e628d379a978c2fc8c70b49cee3e70df36423c5695aa",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_windows_amd64.tar.gz",
+              "sha256": "9c12a63899579c23492b423c5f131a5f445e6ecdba744822196b62ebfdc786fc",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.0/kapi-pdfium_0.1.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        }
+      }
+    },
     "sat": {
       "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
