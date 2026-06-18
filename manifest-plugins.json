@@ -665,6 +665,40 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "0.1.4": {
+          "released": "2026-06-18",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_darwin_arm64.tar.gz",
+              "sha256": "6548f871900423bac05170a5969d81555c0ff0d026a1436b49c9493072bf3ebd",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_linux_amd64.tar.gz",
+              "sha256": "c5bef6e781e675ff5886a31bad17decaf2b2e3746a671ea22a34dd723e494309",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_linux_arm64.tar.gz",
+              "sha256": "69ee7e8f029edde71bdfcb71bc2e298ca50e5a03894b4a6842c371bcd498ede9",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_windows_amd64.tar.gz",
+              "sha256": "43ca3aae0c94831ae285276c9b2a16f1b451e857943bf8336931ac62911a4e91",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/pdfium-v0.1.4/kapi-pdfium_0.1.4_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-pdfium.yml@refs/tags/pdfium-v0.1.4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
