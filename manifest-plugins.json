@@ -798,6 +798,40 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "0.2.0": {
+          "released": "2026-06-18",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_darwin_arm64.tar.gz",
+              "sha256": "cb00081095b892491b5a588eeca5add9896ede2bf7c76cec5564f34b39882e7b",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-vision.yml@refs/tags/vision-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_linux_amd64.tar.gz",
+              "sha256": "a6750c00d74493feff0db580ef85f6c61bce50027f8ef9961755c7c9da603c30",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-vision.yml@refs/tags/vision-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_linux_arm64.tar.gz",
+              "sha256": "4e91df9378500a46c13528023d7df354622a56bba7704b56f1751963c8a98c8d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-vision.yml@refs/tags/vision-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_windows_amd64.tar.gz",
+              "sha256": "ed3b2e5595e50c590099724c91f9a5aba8488359291b99b61ec96c6728000d51",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/vision-v0.2.0/kapi-vision_0.2.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-vision.yml@refs/tags/vision-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     }
