@@ -64,7 +64,49 @@
       "channels": [
         "stable"
       ],
-      "versions": {}
+      "versions": {
+        "0.1.0": {
+          "released": "2026-06-19",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_darwin_arm64.tar.gz",
+              "sha256": "1b24b10e8042089faad51bcd93a7e7827d5e43fbb2dd4802076cee4fa10f5ae3",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-av.yml@refs/tags/av-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_linux_amd64.tar.gz",
+              "sha256": "57b61c40635c75c0eda19a4cbeb9cf13f9de4be2c42f3d7259993ee0c35a2272",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-av.yml@refs/tags/av-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_linux_arm64.tar.gz",
+              "sha256": "ae9ae54861f7458d731100ba7efc0245ebe0494eaec999a22ae5aca70bcd2b2d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-av.yml@refs/tags/av-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_windows_amd64.tar.gz",
+              "sha256": "e96dea5f834154cffc696c030d4cc7b3a63f54c1f657ef8aa95b36744ed262c0",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-av.yml@refs/tags/av-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_windows_arm64.tar.gz",
+              "sha256": "56e5dfad0e1ed00cb69f5f4731465820485b34c791b31bf27cdf76f982d21487",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/av-v0.1.0/kapi-av_0.1.0_windows_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-av.yml@refs/tags/av-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        }
+      }
     },
     "bowrain": {
       "description": "Sync .kapi projects with Bowrain Server",
