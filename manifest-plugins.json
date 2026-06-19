@@ -5,7 +5,7 @@
     "bowrain": {
       "description": "Sync .kapi projects with Bowrain Server",
       "homepage": "https://bowrain.cloud",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "bowrain",
       "channels": [
@@ -124,9 +124,9 @@
       }
     },
     "okapi-bridge": {
-      "description": "Okapi Framework filters (57+ formats) — IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, …",
+      "description": "Okapi Framework filters (57+ formats) \u2014 IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, \u2026",
       "homepage": "https://github.com/neokapi/okapi-bridge",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "okapi-bridge",
       "channels": [
@@ -523,7 +523,7 @@
     "pdfium": {
       "description": "Read PDFs with correct text (incl. CID/Type0/CJK) and per-segment geometry via Google's PDFium",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/pdfium",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -705,7 +705,7 @@
     "sat": {
       "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -756,9 +756,9 @@
       }
     },
     "vision": {
-      "description": "Document vision for kapi — OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
+      "description": "Document vision for kapi \u2014 OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/vision",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -834,6 +834,28 @@
           }
         }
       }
+    },
+    "asr": {
+      "description": "Speech recognition (ASR) for kapi \u2014 transcribe audio/video to timing-anchored text via a bundled whisper.cpp (MIT)",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/asr",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
+    },
+    "av": {
+      "description": "Video demux dependency for kapi \u2014 bundles LGPL ffmpeg/ffprobe so the in-process video reader can extract audio (\u2192 asr) and sampled frames (\u2192 vision OCR)",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/av",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
     }
   }
 }
