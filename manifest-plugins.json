@@ -123,6 +123,17 @@
         }
       }
     },
+    "llm": {
+      "description": "Local LLM plugin — runs Google Gemma 4 (E2B) ONNX models in-process for on-device text generation with text, image, and audio input. A free, private alternative to paid cloud models.",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/llm",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
+    },
     "okapi-bridge": {
       "description": "Okapi Framework filters (57+ formats) — IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, …",
       "homepage": "https://github.com/neokapi/okapi-bridge",
