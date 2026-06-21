@@ -52,6 +52,47 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "0.1.1": {
+          "released": "2026-06-21",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_darwin_arm64.tar.gz",
+              "sha256": "a7313e720246fc23dc91f0ce33f888c1359d91ef38d06082a90bdeb4f31eb36a",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-asr.yml@refs/tags/asr-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_linux_amd64.tar.gz",
+              "sha256": "685ac728caf60f1a446c14f2728aa86c3bd2950038e21d03d0cfb9951fc4fa39",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-asr.yml@refs/tags/asr-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_linux_arm64.tar.gz",
+              "sha256": "05447643e1442f1119d6eb731e93d90bccfce428f7e54e471fce6ac715a73128",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-asr.yml@refs/tags/asr-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_windows_amd64.tar.gz",
+              "sha256": "787dba67c451057e8121cf31f5d47e4451c2c791257a964eb71fb6e4c7842a41",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-asr.yml@refs/tags/asr-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_windows_arm64.tar.gz",
+              "sha256": "d4481d4894393a9bd533919be7814d889b55a6732a7142943a994fde001908dc",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/asr-v0.1.1/kapi-asr_0.1.1_windows_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-asr.yml@refs/tags/asr-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
