@@ -1124,6 +1124,47 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.0.2": {
+          "released": "2026-06-21",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_darwin_arm64.tar.gz",
+              "sha256": "69a48a31c510c9878f21b218e0d95665ad4c839409daece6abdb8582d6f4e34a",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v1.0.2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_linux_amd64.tar.gz",
+              "sha256": "a29ce083df13f7a4f15fe2682c1e3b596e26dd01c102425f4249bdf7345ac39b",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v1.0.2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_linux_arm64.tar.gz",
+              "sha256": "b1577f766062e46f449671fdb04c58e1097089425e7fec0c7bceeca2ea715427",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v1.0.2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_windows_amd64.tar.gz",
+              "sha256": "458fb7484fcbe8dbee0f7022876127a4cf0c9ed97f03c1031fedd30d5b4bf5c5",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v1.0.2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_windows_arm64.tar.gz",
+              "sha256": "4cc671dcafff747e8c85e30c20d59fdef704099c8f7893cdcc3a58f2c33e717d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sat-v1.0.2/kapi-sat_1.0.2_windows_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sat.yml@refs/tags/sat-v1.0.2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
