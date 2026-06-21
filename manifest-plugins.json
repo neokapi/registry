@@ -3,9 +3,9 @@
   "comment": "Manifest-driven plugins (issue neokapi/neokapi#438). The legacy plugins.json next to this file describes gRPC bridge plugins (Okapi); they are migrated to this schema in phases 8-9.",
   "plugins": {
     "asr": {
-      "description": "Speech recognition (ASR) for kapi — transcribe audio/video to timing-anchored text via a bundled whisper.cpp (MIT)",
+      "description": "Speech recognition (ASR) for kapi \u2014 transcribe audio/video to timing-anchored text via a bundled whisper.cpp (MIT)",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/asr",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -97,9 +97,9 @@
       }
     },
     "av": {
-      "description": "Video demux dependency for kapi — bundles LGPL ffmpeg/ffprobe so the in-process video reader can extract audio (→ asr) and sampled frames (→ vision OCR)",
+      "description": "Video demux dependency for kapi \u2014 bundles LGPL ffmpeg/ffprobe so the in-process video reader can extract audio (\u2192 asr) and sampled frames (\u2192 vision OCR)",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/av",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -152,7 +152,7 @@
     "bowrain": {
       "description": "Sync .kapi projects with Bowrain Server",
       "homepage": "https://bowrain.cloud",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "bowrain",
       "channels": [
@@ -270,10 +270,21 @@
         }
       }
     },
+    "check": {
+      "description": "ML voice/style-similarity and register checks via a small multilingual sentence-embedding model",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/check",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
+    },
     "llm": {
-      "description": "Local LLM plugin — runs Google Gemma 4 (E2B) ONNX models in-process for on-device text generation with text, image, and audio input. A free, private alternative to paid cloud models.",
+      "description": "Local LLM plugin \u2014 runs Google Gemma 4 (E2B) ONNX models in-process for on-device text generation with text, image, and audio input. A free, private alternative to paid cloud models.",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/llm",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -419,9 +430,9 @@
       }
     },
     "okapi-bridge": {
-      "description": "Okapi Framework filters (57+ formats) — IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, …",
+      "description": "Okapi Framework filters (57+ formats) \u2014 IDML, HTML, XLIFF, PO, YAML, OpenXML, Markdown, \u2026",
       "homepage": "https://github.com/neokapi/okapi-bridge",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "okapi-bridge",
       "channels": [
@@ -895,7 +906,7 @@
     "pdfium": {
       "description": "Read PDFs with correct text (incl. CID/Type0/CJK) and per-segment geometry via Google's PDFium",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/pdfium",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -1077,7 +1088,7 @@
     "sat": {
       "description": "Segment text into sentences with the SaT (Segment any Text) ML model",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sat",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
@@ -1210,9 +1221,9 @@
       }
     },
     "vision": {
-      "description": "Document vision for kapi — OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
+      "description": "Document vision for kapi \u2014 OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/vision",
-      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "author": "Neokapi <hello@neokapi.dev>",
       "license": "Apache-2.0",
       "group": "neokapi",
       "channels": [
