@@ -272,6 +272,40 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "0.1.1": {
+          "released": "2026-06-21",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_darwin_arm64.tar.gz",
+              "sha256": "ea3a3fe65d751002889ba5e76d1c7c13b49155daf2c285c2c2ee1c2ff39cdbee",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-llm.yml@refs/tags/llm-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_linux_amd64.tar.gz",
+              "sha256": "c2d621ac2ac28ed3ddd8f5a0df5606196a775c3a724309d31b75c8e09d3dbbe6",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-llm.yml@refs/tags/llm-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_linux_arm64.tar.gz",
+              "sha256": "230e61a8ad4179c98527f4792232155981ab9889b2b5e43fb9911fa10118b8e5",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-llm.yml@refs/tags/llm-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_windows_amd64.tar.gz",
+              "sha256": "ead3533f20a94ecb07e631aea54dff8caf2a59da52be2996e37019dd372a67a6",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/llm-v0.1.1/kapi-llm_0.1.1_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-llm.yml@refs/tags/llm-v0.1.1",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
