@@ -319,6 +319,13 @@
     "llm": {
       "description": "Local LLM plugin — runs Google Gemma 4 (E2B) ONNX models in-process for on-device text generation with text, image, and audio input. A free, private alternative to paid cloud models.",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/llm",
+      "deprecated": {
+        "retired": true,
+        "since": "1.2.0",
+        "because": "the bundled on-device Gemma engine is superseded by the built-in Ollama provider (GPU-accelerated, no cgo/onnxruntime stack)",
+        "message": "run local models with Ollama: `kapi ollama install`, then `kapi translate --provider ollama`",
+        "info_url": "https://neokapi.github.io/kapi/framework/ai-translation"
+      },
       "author": "Neokapi \u003chello@neokapi.dev\u003e",
       "license": "Apache-2.0",
       "group": "neokapi",
