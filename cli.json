@@ -66,6 +66,33 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.2.0-rc4": {
+          "released": "2026-06-23",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_darwin_arm64.tar.gz",
+              "sha256": "bcaeae2fd8aec7fafbfd9ec6c08abe05a37cced8213d0835d9edf839300b0379",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_linux_amd64.tar.gz",
+              "sha256": "c267bf507fe511a0373e127923b15b484c14016a776ebbbea1e72417bf438c9d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_linux_arm64.tar.gz",
+              "sha256": "02b7f93e24462d931ec639f5fc554310f2c7044393947611ea155650e75e247d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc4/kapi-cli_1.2.0-rc4_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc4",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     }
