@@ -1,0 +1,15 @@
+{
+  "schema": "v2",
+  "comment": "kapi CLI self-update index (drives `kapi update`). Version entries are appended by the neokapi release workflow via tools/registry-update.",
+  "plugins": {
+    "kapi": {
+      "description": "kapi — the AI-native localization and content CLI",
+      "homepage": "https://github.com/neokapi/neokapi",
+      "author": "Neokapi <hello@neokapi.dev>",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": ["stable", "beta"],
+      "versions": {}
+    }
+  }
+}
