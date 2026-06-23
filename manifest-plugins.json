@@ -294,6 +294,33 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.2.0-rc3": {
+          "released": "2026-06-23",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_darwin_arm64.tar.gz",
+              "sha256": "aa1be816eae7bd055f0e22b2e1bff70bbb3f952956c3d7ef9984c450bda952f0",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc3",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_linux_amd64.tar.gz",
+              "sha256": "f2f4b20af41c2befe14cf574d4549e30a98b4e12e9df6f722a5161df93dee59e",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc3",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_linux_arm64.tar.gz",
+              "sha256": "fd5bf025f806d3e779bb37f9f16cfa59690d22bd07e2634965bf27ed0f31808f",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc3/kapi-bowrain_1.2.0-rc3_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc3",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
