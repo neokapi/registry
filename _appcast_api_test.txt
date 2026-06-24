@@ -1,0 +1,1 @@
+appcast contents-api smoke test
