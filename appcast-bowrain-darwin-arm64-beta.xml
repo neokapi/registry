@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Bowrain</title>
+    <item>
+      <title>Bowrain 1.2.0-rc6</title>
+      <pubDate>Wed, 24 Jun 2026 09:11:11 +0000</pubDate>
+      <sparkle:shortVersionString>1.2.0-rc6</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <enclosure url="https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc6/Bowrain-1.2.0-rc6-macOS-arm64.app.zip" sparkle:os="macos" sparkle:edSignature="EB9pelcb7jepBLoTpwskv3cgam/QulhclDeJqqSPb2djaJKW5sde/AOjDwjPBWoInZMIPPNATKQhFFO0WV31AQ==" length="34054101" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
