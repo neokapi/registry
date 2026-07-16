@@ -265,6 +265,20 @@
               "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_linux_arm64.tar.gz.sigstore.json",
               "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_windows_amd64.zip",
+              "sha256": "7600b41e7964912b81495a79cb7844a7a3b120c73d0b432372c0746a0d5f9c85",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_windows_amd64.zip.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_windows_arm64.zip",
+              "sha256": "abd65cd600d74dcb2d891e9e5a5d226ccd368ab45da4ab576a5a369c46d1b2d4",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.1.0/kapi-bowrain_1.1.0_windows_arm64.zip.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
         },
