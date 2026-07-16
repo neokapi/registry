@@ -40,6 +40,33 @@
             }
           }
         },
+        "1.2.0-rc11": {
+          "released": "2026-07-16",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_darwin_arm64.tar.gz",
+              "sha256": "cfe9e4942d2468a4b5b6a65f338acba8a3f33ff5b00271d5c416403f78b927bf",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_linux_amd64.tar.gz",
+              "sha256": "76721901c9c4e79d04269190edc7bb0fa8a43b4cb25a643baf8405c1e411cda9",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_linux_arm64.tar.gz",
+              "sha256": "1c003ac88398f3eb07f80612e1108cd53978a44c0a997910642016224a250ccb",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0-rc11/kapi-cli_1.2.0-rc11_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
         "1.2.0-rc3": {
           "released": "2026-06-23",
           "channel": "beta",
