@@ -309,6 +309,33 @@
             }
           }
         },
+        "1.2.0-rc12": {
+          "released": "2026-07-18",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_darwin_arm64.tar.gz",
+              "sha256": "ba029917d498ef94caa809f39dc98941d34a97fb4b8a3fa95b219b9611bf5390",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc12",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_linux_amd64.tar.gz",
+              "sha256": "d9f4be750da72e47b608fc5c75aa16f71493610ed224dbd89f6bf41682abe045",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc12",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_linux_arm64.tar.gz",
+              "sha256": "0afa546a6cffb7ab030562d37312bc3f75447fefd737a013e08db05bf981d7e9",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc12/kapi-bowrain_1.2.0-rc12_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc12",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
         "1.2.0-rc3": {
           "released": "2026-06-23",
           "channel": "beta",
@@ -522,13 +549,6 @@
     "llm": {
       "description": "Local LLM plugin — runs Google Gemma 4 (E2B) ONNX models in-process for on-device text generation with text, image, and audio input. A free, private alternative to paid cloud models.",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/llm",
-      "deprecated": {
-        "retired": true,
-        "since": "1.2.0",
-        "because": "the bundled on-device Gemma engine is superseded by the built-in Ollama provider (GPU-accelerated, no cgo/onnxruntime stack)",
-        "message": "run local models with Ollama: `kapi ollama install`, then `kapi translate --provider ollama`",
-        "info_url": "https://neokapi.github.io/kapi/framework/ai-translation"
-      },
       "author": "Neokapi \u003chello@neokapi.dev\u003e",
       "license": "Apache-2.0",
       "group": "neokapi",
