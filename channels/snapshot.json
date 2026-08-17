@@ -8,7 +8,7 @@
       "plugin_type": "bundle",
       "install_type": "bridge",
       "platform": "",
-      "checksum": "0583cc72f8402c13f86a71fed5e41b73a362f9ee88bf413e508fb6481da4298f",
+      "checksum": "6b0759d9f47be821474ec6db2e2e0718f4b134ad3936c781b6f82aa1aafa57f1",
       "download_url": "https://github.com/neokapi/okapi-bridge/releases/download/snapshot/okapi-bridge-snapshot-okapi1.49.0-SNAPSHOT.tar.gz",
       "min_host_version": "0.1.0",
       "capabilities": [
