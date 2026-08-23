@@ -1818,7 +1818,42 @@
       "channels": [
         "stable"
       ],
-      "versions": {}
+      "versions": {
+        "0.1.0": {
+          "released": "2026-08-23",
+          "channel": "stable",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_darwin_arm64.tar.gz",
+              "sha256": "d39c0a05814b6ff0f21d629dc1a02ddb3020c0f041ae9c8576f20643e16437a8",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_linux_amd64.tar.gz",
+              "sha256": "cab69c9cf90c5a27ba1ab802fe5c33f93bcd490dae97b2470f9007a1ef00d30d",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_linux_arm64.tar.gz",
+              "sha256": "eb8d14f1eee9ded37140baa134f475203d7776c7100c826afa14adb199b1e755",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_windows_amd64.tar.gz",
+              "sha256": "0d3dfe274fd75619dd63747fd2174b38bfb38dcee8150ee24d3cc8fbbf9d1845",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.1.0/kapi-sourcecode_0.1.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.1.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        }
+      }
     },
     "vision": {
       "description": "Document vision for kapi — OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
