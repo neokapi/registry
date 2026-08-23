@@ -1809,6 +1809,17 @@
         }
       }
     },
+    "sourcecode": {
+      "description": "Read the prose out of source files with tree-sitter grammars",
+      "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/sourcecode",
+      "author": "Neokapi \u003chello@neokapi.dev\u003e",
+      "license": "Apache-2.0",
+      "group": "neokapi",
+      "channels": [
+        "stable"
+      ],
+      "versions": {}
+    },
     "vision": {
       "description": "Document vision for kapi — OCR now; ML layout and table structure in later phases (PP-OCRv5 ONNX models)",
       "homepage": "https://github.com/neokapi/neokapi/tree/main/plugins/vision",
