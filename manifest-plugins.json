@@ -768,6 +768,33 @@
             }
           }
         },
+        "1.2.0-rc32": {
+          "released": "2026-09-14",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_darwin_arm64.tar.gz",
+              "sha256": "181b709792b99a7fcf8fb6c886d28c2e45ba0d48c5af68f57fa9b6d6dca96320",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc32",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_linux_amd64.tar.gz",
+              "sha256": "0a227b85d166fb94e24f8f8adc4d75ac9a79a729d1a630e82e4cea2ee96d8552",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc32",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_linux_arm64.tar.gz",
+              "sha256": "6b547563b11cd2a00c1047e5f6659f55b02aca552f719c348ff01d04404a32f3",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0-rc32/kapi-bowrain_1.2.0-rc32_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.2.0-rc32",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
         "1.2.0-rc4": {
           "released": "2026-06-23",
           "channel": "beta",
