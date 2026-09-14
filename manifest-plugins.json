@@ -1879,6 +1879,41 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "0.2.0": {
+          "released": "2026-09-14",
+          "channel": "stable",
+          "min_kapi_version": "1.2.0-rc30",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_darwin_arm64.tar.gz",
+              "sha256": "b7c3bbbab19f4680bd944c48c78f7de947868cce50a086a90c373d27ef30832b",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_linux_amd64.tar.gz",
+              "sha256": "1aca4987adc41f16cb346f6651519fdfc7cbe66c50fe0f1ce99512165878e0d9",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_linux_arm64.tar.gz",
+              "sha256": "31dbc03dee38798faa864e8b0b3135667ac27a5bd3b6587e90b198103af73fb2",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "windows/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_windows_amd64.tar.gz",
+              "sha256": "6f867f73a7a8fed3138401ea6c108fa12cba4d558cd445cda4911eef3cd88aea",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/sourcecode-v0.2.0/kapi-sourcecode_0.2.0_windows_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-sourcecode.yml@refs/tags/sourcecode-v0.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
