@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Bowrain</title>
+    <item>
+      <title>Bowrain 1.2.0</title>
+      <pubDate>Sat, 19 Sep 2026 10:47:41 +0000</pubDate>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <enclosure url="https://github.com/neokapi/neokapi/releases/download/bowrain-v1.2.0/bowrain-1.2.0-windows-amd64.zip" sparkle:os="windows" sparkle:edSignature="2m42NdoJci6gVEGLhdx0/Csw+TKhKHlWZXyksVP21BAHd4US+0TobLyzI8E4JfQgNMPYfaI/AAaqZLWY1mljBw==" length="35826006" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
