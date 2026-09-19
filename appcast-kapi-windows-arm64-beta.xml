@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Kapi</title>
+    <item>
+      <title>Kapi 1.2.0</title>
+      <pubDate>Sat, 19 Sep 2026 10:01:12 +0000</pubDate>
+      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <sparkle:channel>beta</sparkle:channel>
+      <enclosure url="https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-1.2.0-windows-arm64.zip" sparkle:os="windows" sparkle:edSignature="qVUv59wyzYO8fvYbgCBkbtwjmdJimTu8JItmHFD0+Mg6qX3gG/gOjFOvMqgcMSLGWuqWCCpz6shSwYLCg7vpDw==" length="36008127" type="application/octet-stream"/>
+    </item>
+  </channel>
+</rss>
