@@ -13,6 +13,32 @@
         "beta"
       ],
       "versions": {
+        "1.2.0": {
+          "released": "2026-09-19",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_darwin_arm64.tar.gz",
+              "sha256": "d44f5ee94cc35079e03e550eaadab4e2c42931e832dc387cf2619a34f106e5a8",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_linux_amd64.tar.gz",
+              "sha256": "ed6ee0de09be4f2a3d98e2d2ad3de149592edc765a9ba8a6d08cf5d3291e123e",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_linux_arm64.tar.gz",
+              "sha256": "a93dec5e38673b68bcd6c3f920fa918b68fa9ab508cdc9946215755fa97b0325",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-cli_1.2.0_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release.yml@refs/tags/v1.2.0",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
         "1.2.0-rc1": {
           "released": "2026-06-23",
           "channel": "beta",
