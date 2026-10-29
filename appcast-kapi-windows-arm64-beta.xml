@@ -3,11 +3,11 @@
   <channel>
     <title>Kapi</title>
     <item>
-      <title>Kapi 1.2.0</title>
-      <pubDate>Sat, 19 Sep 2026 10:01:12 +0000</pubDate>
-      <sparkle:shortVersionString>1.2.0</sparkle:shortVersionString>
+      <title>Kapi 1.3.0-rc10</title>
+      <pubDate>Thu, 29 Oct 2026 17:13:15 +0000</pubDate>
+      <sparkle:shortVersionString>1.3.0-rc10</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
-      <enclosure url="https://github.com/neokapi/neokapi/releases/download/v1.2.0/kapi-1.2.0-windows-arm64.zip" sparkle:os="windows" sparkle:edSignature="qVUv59wyzYO8fvYbgCBkbtwjmdJimTu8JItmHFD0+Mg6qX3gG/gOjFOvMqgcMSLGWuqWCCpz6shSwYLCg7vpDw==" length="36008127" type="application/octet-stream"/>
+      <enclosure url="https://github.com/neokapi/neokapi/releases/download/v1.3.0-rc10/kapi-1.3.0-rc10-windows-arm64.zip" sparkle:os="windows" sparkle:edSignature="F4G9isiaPD20heyF1OYqLMxNdQAEYoVQdxSaIc+7H4ld96fpRJjKXsNG9y5yO5hzpPef3QLIr+pD3fXMZB4DBA==" length="41589091" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
