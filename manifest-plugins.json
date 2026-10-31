@@ -1010,6 +1010,33 @@
             }
           }
         },
+        "1.3.0-rc11": {
+          "released": "2026-10-31",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_darwin_arm64.tar.gz",
+              "sha256": "6f0ad06e42b3ad81d83f56f63ffe8793c060ed5809cdf9a162285f4ffbba078f",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.3.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_linux_amd64.tar.gz",
+              "sha256": "5e6eaeb0ca6430d154e070bad6a5520d05d37ac55b980dbef1849fd8ce7cd6af",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.3.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_linux_arm64.tar.gz",
+              "sha256": "4fc5d13172fd187002332328a84e0ad70decf030b322d122d0c753ab70a55899",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.3.0-rc11/kapi-bowrain_1.3.0-rc11_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.3.0-rc11",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
+        },
         "1.3.0-rc2": {
           "released": "2026-09-26",
           "channel": "beta",
