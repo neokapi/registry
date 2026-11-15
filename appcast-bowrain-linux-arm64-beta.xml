@@ -3,11 +3,11 @@
   <channel>
     <title>Bowrain</title>
     <item>
-      <title>Bowrain 1.4.0-rc1</title>
-      <pubDate>Thu, 12 Nov 2026 18:59:13 +0000</pubDate>
-      <sparkle:shortVersionString>1.4.0-rc1</sparkle:shortVersionString>
+      <title>Bowrain 1.4.0-rc2</title>
+      <pubDate>Sun, 15 Nov 2026 11:29:55 +0000</pubDate>
+      <sparkle:shortVersionString>1.4.0-rc2</sparkle:shortVersionString>
       <sparkle:channel>beta</sparkle:channel>
-      <enclosure url="https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc1/bowrain-1.4.0-rc1-linux-arm64.tar.gz" sparkle:os="linux" sparkle:edSignature="agoi3J6TNbGAeMFCP2frlrsFD94fuX+j3mPtqEpQ2nL5NbW00ihqCs1IqjuQt296kBRLp/AHBW7WlJB0MldtDg==" length="25060616" type="application/octet-stream"/>
+      <enclosure url="https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/bowrain-1.4.0-rc2-linux-arm64.tar.gz" sparkle:os="linux" sparkle:edSignature="uYDHDWmDad3pQu8VE8J3MgDKUmcYzo1vNohUf/5iWqWWA1UB3TcYmS9aYIcKcp3baQ6kCga9Mds9HsnZHAhTBg==" length="25145213" type="application/octet-stream"/>
     </item>
   </channel>
 </rss>
