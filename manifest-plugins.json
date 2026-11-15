@@ -1278,6 +1278,33 @@
               "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
             }
           }
+        },
+        "1.4.0-rc2": {
+          "released": "2026-11-15",
+          "channel": "beta",
+          "platforms": {
+            "darwin/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_darwin_arm64.tar.gz",
+              "sha256": "c9c91bc519e5e196622397e6126602314693dca7f3f3a99ac327d9fd8843c956",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_darwin_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.4.0-rc2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/amd64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_linux_amd64.tar.gz",
+              "sha256": "913ff9792bed415f632fa54f4bc592e0a452c97a9f86826b80434270b1f189e2",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_linux_amd64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.4.0-rc2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            },
+            "linux/arm64": {
+              "url": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_linux_arm64.tar.gz",
+              "sha256": "32a04c21e8978cdb0eb80e30c51ae98f4095ac8e3e6cfb74a70d8d0d0b81d195",
+              "signature": "https://github.com/neokapi/neokapi/releases/download/bowrain-v1.4.0-rc2/kapi-bowrain_1.4.0-rc2_linux_arm64.tar.gz.sigstore.json",
+              "cert_identity": "https://github.com/neokapi/neokapi/.github/workflows/release-bowrain.yml@refs/tags/bowrain-v1.4.0-rc2",
+              "cert_oidc_issuer": "https://token.actions.githubusercontent.com"
+            }
+          }
         }
       }
     },
